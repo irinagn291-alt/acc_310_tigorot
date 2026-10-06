@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007A904D657ED1354673B609 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC73CE9A21CAC62EB8EDB1E /* SavedView.swift */; };
+		04AD4C8C7E3CC44FF3EAE35D /* DittographyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6232917BB4E6990C166EFA1 /* DittographyApp.swift */; };
+		0EB32200642B4FCE456860AD /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F75D5CC3E0DA9340560489 /* Word.swift */; };
+		20205855C63CF81BE1CE2C75 /* QuireVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EABAAA9A0B764AB0C797E /* QuireVault.swift */; };
+		236280B626B7793EE00EB8EE /* CatalogClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB875CF704C8F19D00FC6E93 /* CatalogClientTests.swift */; };
+		2FEC81DBC828A20E36B5968D /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB61354B202DA9BB395D37A /* APIConfig.swift */; };
+		374D86604CB88652572149C9 /* QuireDaylight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF0301D01F01F583F749922 /* QuireDaylight.swift */; };
+		381635FE845CC2C3282FF2CF /* QuireOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB1FA411549A98F48C294AD /* QuireOnboarding.swift */; };
+		4478E26008B79ECB660478FF /* QuireStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DD69EBE224ABA6E3CA7578 /* QuireStore.swift */; };
+		4505A4D352D69A23254ACECB /* CancelMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83CB4F9E5F764CD79FC3E0 /* CancelMark.swift */; };
+		464303BAB74CCA163F36F050 /* QuireFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07935FC4F6C4103F3DD44B60 /* QuireFoldTests.swift */; };
+		4B22FC42B1C323D7B52D6417 /* QuireLinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DADF45D26338FA0089E8F69 /* QuireLinksTests.swift */; };
+		4E32239209417B0ED987AC06 /* QuireIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B65F3772E84C69967B97D98 /* QuireIntents.swift */; };
+		56F6A45FEF0AE4E930017E10 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7CEBE72546FCC7C5D24480 /* ExploreView.swift */; };
+		5CA72906FCB4D70BEB69D31C /* QuireDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D04ACB0116757C69E9A83 /* QuireDocument.swift */; };
+		60E89CCDC4CCA9E336BCC6F6 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C91FBCEC76AA8E4C0E1A40 /* Work.swift */; };
+		667D401E71A578BC85D12820 /* WordChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2598270C1D43923A66113EC /* WordChip.swift */; };
+		6E448E3492F01CAC56A58C06 /* DittographyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797A133DCDAAA74F07B650E8 /* DittographyTests.swift */; };
+		6F0DD90AA0BBE935BD12D5C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F2AF67CCC6A22FB6753D42 /* Assets.xcassets */; };
+		7AC776586D2953B965332104 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 43759A377946539D4BAC333D /* Alamofire */; };
+		7F233E350763D7D58C6FC59F /* QuireLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928DBE76169A1B5558DCC745 /* QuireLinks.swift */; };
+		882FAC6DBA3F8138BB8358A6 /* QuireVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A709761F97D5DF62EC65CA8 /* QuireVaultTests.swift */; };
+		8C6B018629EF1C3E24AA8C78 /* DwellMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349822D7AAE32A3A28882819 /* DwellMark.swift */; };
+		8D85C453F7C5A3BFF949DC9C /* QuireVacantPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA35BD9971898B4D159A2E7C /* QuireVacantPage.swift */; };
+		8DABC7740A8379740C875C8A /* CatalogClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3144F28B9F93940E29DCD3 /* CatalogClient.swift */; };
+		919CAC89B260D78C3E4846B0 /* Quire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA21740653C3D95B28EB42D /* Quire.swift */; };
+		9EA7FF14209C622EFA0335BB /* Dittograph.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1734455C1BBFB7F2B547251 /* Dittograph.swift */; };
+		AE9D2C6330D1A708ED1C1BD2 /* QuireGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB68235B43F8EC50D0C34E2E /* QuireGate.swift */; };
+		C318DDB9AD2AD09AECAA1B2A /* CopenhagenShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0ADB9F8DA1F25F21F85B2D /* CopenhagenShelf.swift */; };
+		CBB4092BD80AA1364D48218B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA647A59F28ABC4B6F0E434B /* SettingsView.swift */; };
+		CE58907AE43918F3232ECF73 /* EchoFolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C2377C278EC0F9B476CE5 /* EchoFolioView.swift */; };
+		E1512EB1F5E03A3C6F50A79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0C6F9AF5303AC067D86F4 /* AppDelegate.swift */; };
+		E844FDDF41951A516F45EB3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4D32BE763E5094F7F12CC0 /* ContentView.swift */; };
+		F0D4D26E2439F7E62ADFF292 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3D9721111A9931CDD7DD9A /* QuizView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44530D66A81FD23BE4ABD9F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551882FAC3675465D3BC63EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01396139A6ACE6966B5E5F6F;
+			remoteInfo = Dittography;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C91FBCEC76AA8E4C0E1A40 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		04F75D5CC3E0DA9340560489 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		07935FC4F6C4103F3DD44B60 /* QuireFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuireFoldTests.swift; sourceTree = "<group>"; };
+		0BF0301D01F01F583F749922 /* QuireDaylight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuireDaylight.swift; sourceTree = "<group>"; };
+		1DB1FA411549A98F48C294AD /* QuireOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuireOnboarding.swift; sourceTree = "<group>"; };
+		1E7CEBE72546FCC7C5D24480 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		25C0C6F9AF5303AC067D86F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CC73CE9A21CAC62EB8EDB1E /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		349822D7AAE32A3A28882819 /* DwellMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DwellMark.swift; sourceTree = "<group>"; };
+		36F2AF67CCC6A22FB6753D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A709761F97D5DF62EC65CA8 /* QuireVaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuireVaultTests.swift; sourceTree = "<group>"; };
+		3B65F3772E84C69967B97D98 /* QuireIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuireIntents.swift; sourceTree = "<group>"; };
+		404FE4693C856CA0CB130D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5FB61354B202DA9BB395D37A /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		6DA21740653C3D95B28EB42D /* Quire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quire.swift; sourceTree = "<group>"; };
+		719EABAAA9A0B764AB0C797E /* QuireVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuireVault.swift; sourceTree = "<group>"; };
+		737D04ACB0116757C69E9A83 /* QuireDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuireDocument.swift; sourceTree = "<group>"; };
+		74DD69EBE224ABA6E3CA7578 /* QuireStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuireStore.swift; sourceTree = "<group>"; };
+		797A133DCDAAA74F07B650E8 /* DittographyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DittographyTests.swift; sourceTree = "<group>"; };
+		867B4164EBC416A9D393B342 /* Dittography.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Dittography.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3D9721111A9931CDD7DD9A /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		8DADF45D26338FA0089E8F69 /* QuireLinksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuireLinksTests.swift; sourceTree = "<group>"; };
+		928DBE76169A1B5558DCC745 /* QuireLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuireLinks.swift; sourceTree = "<group>"; };
+		A2598270C1D43923A66113EC /* WordChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordChip.swift; sourceTree = "<group>"; };
+		A82C20974EF73B52C73B7019 /* DittographyTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DittographyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA35BD9971898B4D159A2E7C /* QuireVacantPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuireVacantPage.swift; sourceTree = "<group>"; };
+		AC3144F28B9F93940E29DCD3 /* CatalogClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClient.swift; sourceTree = "<group>"; };
+		B18C2377C278EC0F9B476CE5 /* EchoFolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoFolioView.swift; sourceTree = "<group>"; };
+		BA647A59F28ABC4B6F0E434B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BC83CB4F9E5F764CD79FC3E0 /* CancelMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelMark.swift; sourceTree = "<group>"; };
+		C6232917BB4E6990C166EFA1 /* DittographyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DittographyApp.swift; sourceTree = "<group>"; };
+		CB68235B43F8EC50D0C34E2E /* QuireGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuireGate.swift; sourceTree = "<group>"; };
+		D1734455C1BBFB7F2B547251 /* Dittograph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dittograph.swift; sourceTree = "<group>"; };
+		EB875CF704C8F19D00FC6E93 /* CatalogClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClientTests.swift; sourceTree = "<group>"; };
+		FD0ADB9F8DA1F25F21F85B2D /* CopenhagenShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopenhagenShelf.swift; sourceTree = "<group>"; };
+		FD4D32BE763E5094F7F12CC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CACABBB7C744627CBEDAB716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC776586D2953B965332104 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0830AB53B7D4F5B47982572C /* Dittography */ = {
+			isa = PBXGroup;
+			children = (
+				5FB61354B202DA9BB395D37A /* APIConfig.swift */,
+				25C0C6F9AF5303AC067D86F4 /* AppDelegate.swift */,
+				36F2AF67CCC6A22FB6753D42 /* Assets.xcassets */,
+				FD4D32BE763E5094F7F12CC0 /* ContentView.swift */,
+				C6232917BB4E6990C166EFA1 /* DittographyApp.swift */,
+				404FE4693C856CA0CB130D9E /* Info.plist */,
+				CDCB0172A7ECDA74177B7424 /* CancelMark */,
+				715EEADEEC7C40A11B7FE495 /* Dittograph */,
+				444BFE254F55773489C166CE /* DwellMark */,
+				339A062CE8AC9B20F8170D71 /* Quire */,
+				81DE83DFAE746341747D14A4 /* Word */,
+				DC00985D8767821C4B240890 /* Work */,
+			);
+			path = Dittography;
+			sourceTree = "<group>";
+		};
+		339A062CE8AC9B20F8170D71 /* Quire */ = {
+			isa = PBXGroup;
+			children = (
+				6DA21740653C3D95B28EB42D /* Quire.swift */,
+				0BF0301D01F01F583F749922 /* QuireDaylight.swift */,
+				737D04ACB0116757C69E9A83 /* QuireDocument.swift */,
+				CB68235B43F8EC50D0C34E2E /* QuireGate.swift */,
+				3B65F3772E84C69967B97D98 /* QuireIntents.swift */,
+				928DBE76169A1B5558DCC745 /* QuireLinks.swift */,
+				1DB1FA411549A98F48C294AD /* QuireOnboarding.swift */,
+				74DD69EBE224ABA6E3CA7578 /* QuireStore.swift */,
+				AA35BD9971898B4D159A2E7C /* QuireVacantPage.swift */,
+				719EABAAA9A0B764AB0C797E /* QuireVault.swift */,
+				8D3D9721111A9931CDD7DD9A /* QuizView.swift */,
+				BA647A59F28ABC4B6F0E434B /* SettingsView.swift */,
+			);
+			path = Quire;
+			sourceTree = "<group>";
+		};
+		444BFE254F55773489C166CE /* DwellMark */ = {
+			isa = PBXGroup;
+			children = (
+				349822D7AAE32A3A28882819 /* DwellMark.swift */,
+			);
+			path = DwellMark;
+			sourceTree = "<group>";
+		};
+		5D190761D93B76AACA6311FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				867B4164EBC416A9D393B342 /* Dittography.app */,
+				A82C20974EF73B52C73B7019 /* DittographyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		715EEADEEC7C40A11B7FE495 /* Dittograph */ = {
+			isa = PBXGroup;
+			children = (
+				D1734455C1BBFB7F2B547251 /* Dittograph.swift */,
+				B18C2377C278EC0F9B476CE5 /* EchoFolioView.swift */,
+			);
+			path = Dittograph;
+			sourceTree = "<group>";
+		};
+		81DE83DFAE746341747D14A4 /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				04F75D5CC3E0DA9340560489 /* Word.swift */,
+				A2598270C1D43923A66113EC /* WordChip.swift */,
+			);
+			path = Word;
+			sourceTree = "<group>";
+		};
+		C2526A8BE36CFB1F28CD121F /* DittographyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB875CF704C8F19D00FC6E93 /* CatalogClientTests.swift */,
+				797A133DCDAAA74F07B650E8 /* DittographyTests.swift */,
+				07935FC4F6C4103F3DD44B60 /* QuireFoldTests.swift */,
+				8DADF45D26338FA0089E8F69 /* QuireLinksTests.swift */,
+				3A709761F97D5DF62EC65CA8 /* QuireVaultTests.swift */,
+			);
+			path = DittographyTests;
+			sourceTree = "<group>";
+		};
+		CDCB0172A7ECDA74177B7424 /* CancelMark */ = {
+			isa = PBXGroup;
+			children = (
+				BC83CB4F9E5F764CD79FC3E0 /* CancelMark.swift */,
+			);
+			path = CancelMark;
+			sourceTree = "<group>";
+		};
+		D84EABDBDFC651556BDBA062 = {
+			isa = PBXGroup;
+			children = (
+				0830AB53B7D4F5B47982572C /* Dittography */,
+				C2526A8BE36CFB1F28CD121F /* DittographyTests */,
+				5D190761D93B76AACA6311FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC00985D8767821C4B240890 /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				AC3144F28B9F93940E29DCD3 /* CatalogClient.swift */,
+				FD0ADB9F8DA1F25F21F85B2D /* CopenhagenShelf.swift */,
+				1E7CEBE72546FCC7C5D24480 /* ExploreView.swift */,
+				2CC73CE9A21CAC62EB8EDB1E /* SavedView.swift */,
+				02C91FBCEC76AA8E4C0E1A40 /* Work.swift */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01396139A6ACE6966B5E5F6F /* Dittography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10BB0832A313A213654413B2 /* Build configuration list for PBXNativeTarget "Dittography" */;
+			buildPhases = (
+				D510DF32A0CFF6B6CF96C5F2 /* Sources */,
+				89F9E511B34344B509F0B6B2 /* Resources */,
+				CACABBB7C744627CBEDAB716 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dittography;
+			packageProductDependencies = (
+				43759A377946539D4BAC333D /* Alamofire */,
+			);
+			productName = Dittography;
+			productReference = 867B4164EBC416A9D393B342 /* Dittography.app */;
+			productType = "com.apple.product-type.application";
+		};
+		208E618A9A24BE21699D01A5 /* DittographyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BB5273C948100C799C94BF /* Build configuration list for PBXNativeTarget "DittographyTests" */;
+			buildPhases = (
+				5DB3398B0BF3872875089A29 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				978915276F7916676281F3AA /* PBXTargetDependency */,
+			);
+			name = DittographyTests;
+			packageProductDependencies = (
+			);
+			productName = DittographyTests;
+			productReference = A82C20974EF73B52C73B7019 /* DittographyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		551882FAC3675465D3BC63EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					01396139A6ACE6966B5E5F6F = {
+						ProvisioningStyle = Automatic;
+					};
+					208E618A9A24BE21699D01A5 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7D48511ADC1B326C3F121CBC /* Build configuration list for PBXProject "Dittography" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D84EABDBDFC651556BDBA062;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7AF10B2EF4E64D05675845CC /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5D190761D93B76AACA6311FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01396139A6ACE6966B5E5F6F /* Dittography */,
+				208E618A9A24BE21699D01A5 /* DittographyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89F9E511B34344B509F0B6B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0DD90AA0BBE935BD12D5C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DB3398B0BF3872875089A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236280B626B7793EE00EB8EE /* CatalogClientTests.swift in Sources */,
+				6E448E3492F01CAC56A58C06 /* DittographyTests.swift in Sources */,
+				464303BAB74CCA163F36F050 /* QuireFoldTests.swift in Sources */,
+				4B22FC42B1C323D7B52D6417 /* QuireLinksTests.swift in Sources */,
+				882FAC6DBA3F8138BB8358A6 /* QuireVaultTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D510DF32A0CFF6B6CF96C5F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEC81DBC828A20E36B5968D /* APIConfig.swift in Sources */,
+				E1512EB1F5E03A3C6F50A79A /* AppDelegate.swift in Sources */,
+				4505A4D352D69A23254ACECB /* CancelMark.swift in Sources */,
+				8DABC7740A8379740C875C8A /* CatalogClient.swift in Sources */,
+				E844FDDF41951A516F45EB3D /* ContentView.swift in Sources */,
+				C318DDB9AD2AD09AECAA1B2A /* CopenhagenShelf.swift in Sources */,
+				9EA7FF14209C622EFA0335BB /* Dittograph.swift in Sources */,
+				04AD4C8C7E3CC44FF3EAE35D /* DittographyApp.swift in Sources */,
+				8C6B018629EF1C3E24AA8C78 /* DwellMark.swift in Sources */,
+				CE58907AE43918F3232ECF73 /* EchoFolioView.swift in Sources */,
+				56F6A45FEF0AE4E930017E10 /* ExploreView.swift in Sources */,
+				919CAC89B260D78C3E4846B0 /* Quire.swift in Sources */,
+				374D86604CB88652572149C9 /* QuireDaylight.swift in Sources */,
+				5CA72906FCB4D70BEB69D31C /* QuireDocument.swift in Sources */,
+				AE9D2C6330D1A708ED1C1BD2 /* QuireGate.swift in Sources */,
+				4E32239209417B0ED987AC06 /* QuireIntents.swift in Sources */,
+				7F233E350763D7D58C6FC59F /* QuireLinks.swift in Sources */,
+				381635FE845CC2C3282FF2CF /* QuireOnboarding.swift in Sources */,
+				4478E26008B79ECB660478FF /* QuireStore.swift in Sources */,
+				8D85C453F7C5A3BFF949DC9C /* QuireVacantPage.swift in Sources */,
+				20205855C63CF81BE1CE2C75 /* QuireVault.swift in Sources */,
+				F0D4D26E2439F7E62ADFF292 /* QuizView.swift in Sources */,
+				007A904D657ED1354673B609 /* SavedView.swift in Sources */,
+				CBB4092BD80AA1364D48218B /* SettingsView.swift in Sources */,
+				0EB32200642B4FCE456860AD /* Word.swift in Sources */,
+				667D401E71A578BC85D12820 /* WordChip.swift in Sources */,
+				60E89CCDC4CCA9E336BCC6F6 /* Work.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		978915276F7916676281F3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01396139A6ACE6966B5E5F6F /* Dittography */;
+			targetProxy = 44530D66A81FD23BE4ABD9F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21D66501AADCF3AC29F367D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dittography.quire.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dittography.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dittography";
+			};
+			name = Debug;
+		};
+		8956696ECF73D558221DBF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dittography/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dittography;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dittography.quire;
+				PRODUCT_NAME = Dittography;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A3C168995D3010D3B4F84D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dittography.quire.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dittography.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dittography";
+			};
+			name = Release;
+		};
+		A1950DBA126454D4E598B8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		B607693A8D4B33DDF0BBD434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		FB6E0A07AE7B33342E118ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dittography/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dittography;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dittography.quire;
+				PRODUCT_NAME = Dittography;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10BB0832A313A213654413B2 /* Build configuration list for PBXNativeTarget "Dittography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8956696ECF73D558221DBF97 /* Debug */,
+				FB6E0A07AE7B33342E118ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7D48511ADC1B326C3F121CBC /* Build configuration list for PBXProject "Dittography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1950DBA126454D4E598B8C2 /* Debug */,
+				B607693A8D4B33DDF0BBD434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B3BB5273C948100C799C94BF /* Build configuration list for PBXNativeTarget "DittographyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D66501AADCF3AC29F367D4 /* Debug */,
+				9A3C168995D3010D3B4F84D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7AF10B2EF4E64D05675845CC /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ymvmj7dsyy-stack/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 3ea8e93ec37a3ae5f255afb529ef20f438dd1903;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		43759A377946539D4BAC333D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AF10B2EF4E64D05675845CC /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 551882FAC3675465D3BC63EE /* Project object */;
+}

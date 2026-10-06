@@ -1,0 +1,18 @@
+Tigorot is a portrait quiz for people who keep paintings from the Copenhagen collection of Statens Museum for Kunst on this device. Home is a single quire: Echo prints the maker or the picture title with one word copied beside itself, and only that surplus copy files the work.
+
+• Gather paintings from Copenhagen (catalogue search or the local shelf) and keep them on this device
+• Quiz only sits on paintings the person has kept
+• Echo prints maker or picture, one field, with one word copied beside itself
+• Tap the copied word to file that painting
+• A miss greys that word, labels it Dwell, and stays on the quire
+• Painting filed / Filed paintings after a surplus tap
+• Undo peels the newest file or miss
+• Saved lists Expunged paintings, CancelMarks, and DwellMarks
+• The extra copy / Echo then expunge explains the job
+• One-time onboarding with Skip, run again from Settings
+• Collection credit for Statens Museum for Kunst and SMK Open
+• Contact us
+• Reset all data on this device
+• Light appearance, portrait quire with no tab bar
+
+Explore, Saved, Settings, and The extra copy open as sheets over home. There is no shop, no grade, and no account.

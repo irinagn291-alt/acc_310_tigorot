@@ -1,0 +1,21 @@
+The app requests no permissions. No usage-description strings exist, and no system permission prompt appears.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt. Reset all data only clears this device; it is not an account deletion flow.
+
+Tigorot is a portrait quiz for people who keep paintings from the Copenhagen collection of Statens Museum for Kunst on this device. Home is a single quire: Echo prints the maker or the picture title with one word copied beside itself, and only that surplus copy files the work. There is no shop, no grade, and no account.
+
+No credentials or demo account are needed. A cold launch shows the system launch screen, then the native quire. On a physical device with no saved session, a three-page cover appears over home. Page 1 is Save a painting, Gather works from Copenhagen. The quiz only sits on what you keep here., and Continue. Page 2 is Echo the line, Echo prints maker or picture, one field, with one word copied beside itself., and Continue. Page 3 is Tap the copy, The surplus word files the work. A miss greys that word and stays on the quire., and Next. Skip on any page, Continue on Save a painting and Echo the line, and Next on Tap the copy all finish the cover and leave the person on home. The cover does not ask for an account or a permission. If home shows Quire is fair. and Save a work, then sit the quiz., tap Explore, tap a row (painting title over the maker) to keep that painting, then tap Echo. The title becomes Tap the copy. Word chips accept taps only when the title is Tap the copy. Tap the copied word, the surplus copy that appears twice in a row, to file the painting. The title becomes Painting filed and Filed paintings increases by one. A miss greys that word, labels it Dwell, and stays on the quire. Undo peels the newest file or miss. Echo is hidden while the line is live.
+
+On Simulator, the first launch skips that cover, keeps four local paintings, and already prints a live doubled line so the first word tap can file. For that first line the title is View from Dosseringen near the Sortedam Lake, the maker line is Christen Kobke, the words are View, View, from, Dosseringen, near, the, Sortedam, Lake, and the extra copy is the second View. Tap that second View to file.
+
+Explore, Saved, Settings, and The extra copy open as sheets over home, each with a trailing close control. Explore uses Search the catalog. Saved lists Expunged, CancelMarks, and DwellMarks when each group has rows. Settings Collection has Statens Museum for Kunst and SMK Open. Settings Marks has Undo. Settings Help has Contact us and Re-run onboarding, which shows the same three pages without wiping paintings or marks. Reset all data asks Reset all saved paintings, marks, and the live line on this device? with Reset all data or Keep quire. The extra copy shows Echo then expunge and Back to quire. That sheet does not Echo or file by itself.
+
+Paintings, marks, and the live line stay on this device. Explore can fetch catalog listings; what the person keeps is stored here. Contact us in Settings under Help opens the support page. Statens Museum for Kunst opens the museum's public site. SMK Open opens the museum's Open page.
+
+There is no region lock. The catalog and shelf are Copenhagen / Statens Museum for Kunst. The UI is English only. Counts and Saved day labels follow the device locale.
+
+No licence or regulated-industry paperwork applies. The app is an Education portrait quiz of public collection paintings and is not a medical, financial, or other regulated product.
+
+The app does not show health, medical, or product-health information. It is a personal log only and gives no recommendations.
+
+There is no barcode or QR scan. Search is a typed catalog hunt.
