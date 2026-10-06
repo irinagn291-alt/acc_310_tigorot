@@ -1,4 +1,4 @@
-<!-- gf-brief source=621bfe7511ac62ff7be4be4081d780546001a118aa03216a0e5802c07fd2fc6f written=2026-10-06T19:45:13+03:00 -->
+<!-- gf-brief source=621bfe7511ac62ff7be4be4081d780546001a118aa03216a0e5802c07fd2fc6f written=2026-10-06T19:45:43+03:00 -->
 # Tigorot
 ## What it is
 Tigorot is a portrait quiz for people who keep paintings from the Copenhagen collection of Statens Museum for Kunst on this device. Home is a single quire: Echo prints the maker or the picture title with one word copied beside itself, and only that surplus copy files the work. There is no shop, no grade, and no account.
